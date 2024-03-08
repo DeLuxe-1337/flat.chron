@@ -1,0 +1,8 @@
+$("extern")
+$("return")
+$("name"="flat.element.create")
+!createNode :: (tag, properties) ?
+
+$("extern")
+$("name"="flat.element.render")
+!renderNode :: (id) ?

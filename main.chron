@@ -1,0 +1,9 @@
+include core.all
+include flat.all
+
+main :: {
+    PrintLn("Hello, wasm!")
+
+    elm1 = flat.element.create("h1", <"content"="Hello, world">)
+    flat.element.render(elm1)
+}
